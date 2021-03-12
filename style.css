@@ -79,10 +79,11 @@ img {
     font-size: 55px;
   }
   .row h3{
-    font-size: 40px;
+    font-size: 38px;
   }
 }
 
+/* lezioni */
 @media (max-width: 420px) {
   #lezioni .row{
     margin: 0 auto;
@@ -92,6 +93,37 @@ img {
     #lezioni .row>.left,
     #lezioni .row>.right {
     width: 100%;
+    float: none;
     font-size: 30px;
+  }
+}
+
+/* steps */
+@media (max-width: 420px){
+  #steps{
+    background-color: white;
+  }
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+    float: none;
+    width: 100%;
+    font-size: 30px;
+  }
+  #steps h3{
+    font-size: 38px;
+  }
+}
+
+/* why */
+@media (max-width: 420px) {
+  #why .row{
+    background-color: rgb(241, 240, 237);
+  }
+  .first, .second, .third{
+    font-size: 30px;
+  }
+  .row hr{
+    border: 2px solid black;
   }
 }
